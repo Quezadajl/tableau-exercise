@@ -1,0 +1,525 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.0822.2038                               -->
+<workbook original-version='18.1' source-build='2021.3.0 (20213.21.0822.2038)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='lego_sets (lego_sets)' inline='true' name='federated.0moiyg51c0j1kt13a80w61fddawe' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='lego_sets' name='excel-direct.18nb5rc03wv9g218x018f1j6d7u3'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Joselit/OneDrive/Documents/nss-data-analytics/projects/tableau-workshop-Quezadajl/lego_sets.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.18nb5rc03wv9g218x018f1j6d7u3' name='lego_sets' table='[lego_sets$]' type='table'>
+          <columns gridOrigin='A1:N10001:no:A1:N10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='ages' ordinal='0' />
+            <column datatype='real' name='list_price' ordinal='1' />
+            <column datatype='integer' name='num_reviews' ordinal='2' />
+            <column datatype='integer' name='piece_count' ordinal='3' />
+            <column datatype='real' name='play_star_rating' ordinal='4' />
+            <column datatype='string' name='prod_desc' ordinal='5' />
+            <column datatype='integer' name='prod_id' ordinal='6' />
+            <column datatype='string' name='prod_long_desc' ordinal='7' />
+            <column datatype='string' name='review_difficulty' ordinal='8' />
+            <column datatype='string' name='set_name' ordinal='9' />
+            <column datatype='real' name='star_rating' ordinal='10' />
+            <column datatype='string' name='theme_name' ordinal='11' />
+            <column datatype='real' name='val_star_rating' ordinal='12' />
+            <column datatype='string' name='country' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.18nb5rc03wv9g218x018f1j6d7u3' name='lego_sets' table='[lego_sets$]' type='table'>
+          <columns gridOrigin='A1:N10001:no:A1:N10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='ages' ordinal='0' />
+            <column datatype='real' name='list_price' ordinal='1' />
+            <column datatype='integer' name='num_reviews' ordinal='2' />
+            <column datatype='integer' name='piece_count' ordinal='3' />
+            <column datatype='real' name='play_star_rating' ordinal='4' />
+            <column datatype='string' name='prod_desc' ordinal='5' />
+            <column datatype='integer' name='prod_id' ordinal='6' />
+            <column datatype='string' name='prod_long_desc' ordinal='7' />
+            <column datatype='string' name='review_difficulty' ordinal='8' />
+            <column datatype='string' name='set_name' ordinal='9' />
+            <column datatype='real' name='star_rating' ordinal='10' />
+            <column datatype='string' name='theme_name' ordinal='11' />
+            <column datatype='real' name='val_star_rating' ordinal='12' />
+            <column datatype='string' name='country' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[lego_sets]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:N10001:no:A1:N10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ages</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ages]</local-name>
+            <parent-name>[lego_sets]</parent-name>
+            <remote-alias>ages</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lego!sets_7D9A602CA2A949AFBA4E53C2897123B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>list_price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[list_price]</local-name>
+            <parent-name>[lego_sets]</parent-name>
+            <remote-alias>list_price</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lego!sets_7D9A602CA2A949AFBA4E53C2897123B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>num_reviews</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[num_reviews]</local-name>
+            <parent-name>[lego_sets]</parent-name>
+            <remote-alias>num_reviews</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lego!sets_7D9A602CA2A949AFBA4E53C2897123B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>piece_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[piece_count]</local-name>
+            <parent-name>[lego_sets]</parent-name>
+            <remote-alias>piece_count</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lego!sets_7D9A602CA2A949AFBA4E53C2897123B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>play_star_rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[play_star_rating]</local-name>
+            <parent-name>[lego_sets]</parent-name>
+            <remote-alias>play_star_rating</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lego!sets_7D9A602CA2A949AFBA4E53C2897123B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prod_desc</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[prod_desc]</local-name>
+            <parent-name>[lego_sets]</parent-name>
+            <remote-alias>prod_desc</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lego!sets_7D9A602CA2A949AFBA4E53C2897123B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prod_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[prod_id]</local-name>
+            <parent-name>[lego_sets]</parent-name>
+            <remote-alias>prod_id</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lego!sets_7D9A602CA2A949AFBA4E53C2897123B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>prod_long_desc</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[prod_long_desc]</local-name>
+            <parent-name>[lego_sets]</parent-name>
+            <remote-alias>prod_long_desc</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lego!sets_7D9A602CA2A949AFBA4E53C2897123B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>review_difficulty</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[review_difficulty]</local-name>
+            <parent-name>[lego_sets]</parent-name>
+            <remote-alias>review_difficulty</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lego!sets_7D9A602CA2A949AFBA4E53C2897123B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>set_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[set_name]</local-name>
+            <parent-name>[lego_sets]</parent-name>
+            <remote-alias>set_name</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lego!sets_7D9A602CA2A949AFBA4E53C2897123B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>star_rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[star_rating]</local-name>
+            <parent-name>[lego_sets]</parent-name>
+            <remote-alias>star_rating</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lego!sets_7D9A602CA2A949AFBA4E53C2897123B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>theme_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[theme_name]</local-name>
+            <parent-name>[lego_sets]</parent-name>
+            <remote-alias>theme_name</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lego!sets_7D9A602CA2A949AFBA4E53C2897123B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>val_star_rating</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[val_star_rating]</local-name>
+            <parent-name>[lego_sets]</parent-name>
+            <remote-alias>val_star_rating</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lego!sets_7D9A602CA2A949AFBA4E53C2897123B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[lego_sets]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lego!sets_7D9A602CA2A949AFBA4E53C2897123B9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='lego_sets' datatype='table' name='[__tableau_internal_object_id__].[lego!sets_7D9A602CA2A949AFBA4E53C2897123B9]' role='measure' type='quantitative' />
+      <column caption='Ages' datatype='string' name='[ages]' role='dimension' type='nominal' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='List Price' datatype='real' name='[list_price]' role='measure' type='quantitative' />
+      <column caption='Num Reviews' datatype='integer' name='[num_reviews]' role='measure' type='quantitative' />
+      <column caption='Piece Count' datatype='integer' name='[piece_count]' role='measure' type='quantitative' />
+      <column caption='Play Star Rating' datatype='real' name='[play_star_rating]' role='measure' type='quantitative' />
+      <column caption='Prod Desc' datatype='string' name='[prod_desc]' role='dimension' type='nominal' />
+      <column caption='Prod Id' datatype='integer' name='[prod_id]' role='dimension' type='ordinal' />
+      <column caption='Prod Long Desc' datatype='string' name='[prod_long_desc]' role='dimension' type='nominal' />
+      <column caption='Review Difficulty' datatype='string' name='[review_difficulty]' role='dimension' type='nominal' />
+      <column caption='Set Name' datatype='string' name='[set_name]' role='dimension' type='nominal' />
+      <column caption='Star Rating' datatype='real' name='[star_rating]' role='measure' type='quantitative' />
+      <column caption='Theme Name' datatype='string' name='[theme_name]' role='dimension' type='nominal' />
+      <column caption='Val Star Rating' datatype='real' name='[val_star_rating]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='lego_sets' id='lego!sets_7D9A602CA2A949AFBA4E53C2897123B9'>
+            <properties context=''>
+              <relation connection='excel-direct.18nb5rc03wv9g218x018f1j6d7u3' name='lego_sets' table='[lego_sets$]' type='table'>
+                <columns gridOrigin='A1:N10001:no:A1:N10001:0' header='yes' outcome='2'>
+                  <column datatype='string' name='ages' ordinal='0' />
+                  <column datatype='real' name='list_price' ordinal='1' />
+                  <column datatype='integer' name='num_reviews' ordinal='2' />
+                  <column datatype='integer' name='piece_count' ordinal='3' />
+                  <column datatype='real' name='play_star_rating' ordinal='4' />
+                  <column datatype='string' name='prod_desc' ordinal='5' />
+                  <column datatype='integer' name='prod_id' ordinal='6' />
+                  <column datatype='string' name='prod_long_desc' ordinal='7' />
+                  <column datatype='string' name='review_difficulty' ordinal='8' />
+                  <column datatype='string' name='set_name' ordinal='9' />
+                  <column datatype='real' name='star_rating' ordinal='10' />
+                  <column datatype='string' name='theme_name' ordinal='11' />
+                  <column datatype='real' name='val_star_rating' ordinal='12' />
+                  <column datatype='string' name='country' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='lego_sets (lego_sets)' name='federated.0moiyg51c0j1kt13a80w61fddawe' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0moiyg51c0j1kt13a80w61fddawe'>
+            <column caption='Ages' datatype='string' name='[ages]' role='dimension' type='nominal' />
+            <column-instance column='[list_price]' derivation='CountD' name='[ctd:list_price:qk]' pivot='key' type='quantitative' />
+            <column caption='List Price' datatype='real' name='[list_price]' role='measure' type='quantitative' />
+            <column-instance column='[ages]' derivation='None' name='[none:ages:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0moiyg51c0j1kt13a80w61fddawe].[none:ages:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:ages:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:ages:nk]' member='&quot;12-Aug&quot;' />
+                <groupfilter function='member' level='[none:ages:nk]' member='&quot;12-Jul&quot;' />
+                <groupfilter function='member' level='[none:ages:nk]' member='&quot;12-Jun&quot;' />
+                <groupfilter function='member' level='[none:ages:nk]' member='&quot;12-May&quot;' />
+                <groupfilter function='member' level='[none:ages:nk]' member='&quot;12-Sep&quot;' />
+                <groupfilter function='member' level='[none:ages:nk]' member='&quot;14-Aug&quot;' />
+                <groupfilter function='member' level='[none:ages:nk]' member='&quot;14-Jul&quot;' />
+                <groupfilter function='member' level='[none:ages:nk]' member='&quot;14-Jun&quot;' />
+                <groupfilter function='member' level='[none:ages:nk]' member='&quot;14-Oct&quot;' />
+                <groupfilter function='member' level='[none:ages:nk]' member='&quot;14-Sep&quot;' />
+                <groupfilter function='member' level='[none:ages:nk]' member='&quot;16-Dec&quot;' />
+                <groupfilter function='member' level='[none:ages:nk]' member='&quot;16-Nov&quot;' />
+                <groupfilter function='member' level='[none:ages:nk]' member='&quot;16-Oct&quot;' />
+                <groupfilter function='member' level='[none:ages:nk]' member='&quot;16-Sep&quot;' />
+                <groupfilter function='member' level='[none:ages:nk]' member='&quot;21-Oct&quot;' />
+                <groupfilter function='member' level='[none:ages:nk]' member='&quot;5-Feb&quot;' />
+                <groupfilter function='member' level='[none:ages:nk]' member='&quot;7-Apr&quot;' />
+                <groupfilter function='member' level='[none:ages:nk]' member='&quot;8-May&quot;' />
+                <groupfilter function='member' level='[none:ages:nk]' member='&quot;Apr-99&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0moiyg51c0j1kt13a80w61fddawe].[none:ages:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0moiyg51c0j1kt13a80w61fddawe].[ctd:list_price:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0moiyg51c0j1kt13a80w61fddawe].[none:ages:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0moiyg51c0j1kt13a80w61fddawe].[ctd:list_price:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0moiyg51c0j1kt13a80w61fddawe].[ctd:list_price:qk]</rows>
+        <cols>[federated.0moiyg51c0j1kt13a80w61fddawe].[none:ages:nk]</cols>
+      </table>
+      <simple-id uuid='{FFA9C38D-623D-4EB8-B138-8B7F4E3FD768}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0moiyg51c0j1kt13a80w61fddawe].[none:ages:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{29947EED-580E-4F63-94BD-84CC07EB12FF}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
